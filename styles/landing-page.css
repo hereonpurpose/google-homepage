@@ -49,26 +49,21 @@ img {
 	padding-bottom: 30px;
 	height: 95px;
 	display: block;
-	/*margin: auto;*/
 	clear: both;
 }
 
 input {
 	display: block;
-	/*margin: auto;*/
 	width: 460px;
 	padding: 9px;
 	font-size: 16px;
 }
 
-input:onclick {
-/*  */
-}
 #buttons {
-
+	text-align: center;
 }
+
 button {
-	margin: auto;
 	margin-top: 28px;
 	background-color: #EEE;
 	box-shadow: none;
@@ -78,7 +73,6 @@ button {
 	font-weight: 700;
 	font-size: 13px;
 	color: #777;
-	display: block; /* Closer... but not in line. :( */
 }
 
 button:hover {
@@ -88,8 +82,7 @@ button:hover {
 
 footer {
 	background-color: #EEE;
-	padding: 10px 0; /*15px 0;
-	margin: auto;*/
+	padding: 10px 0;
 	display: block;
 	height: 20px;
 	border: 1px solid #DDD;
@@ -99,23 +92,21 @@ footer {
 	bottom: 0;
 	left: -2px;
 	right: -2px;
+	font-size: 13px;
 }
 
-ul {
+footer ul {
 	display: inline;
+	padding-bottom: 3px;
+	margin-left: -8px;
 }
 
-}
-.leftAlign {
-	/*float: left;*/
-	position: absolute;
-	left: 0px;
-	margin-left: -15px;
-	padding-bottom: 6px;
+#bottomMenu li {
+	padding-right: 20px;
 }
 
 .rightAlign {
-	/*float: right;*/
-	position: absolute;
-	right: 0px;
+	text-align: left;
+	float: right;
+	padding-right: 20px;
 }
